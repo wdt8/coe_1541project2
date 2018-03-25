@@ -1,0 +1,43 @@
+ /*int sizeL1Inst, assL1Inst, sizeL1Data, assL1Data, sizeL2, assL2, cacheBlockSize, L2AccTime, memAccTime; 
+
+   static const char filename[] = "cache_config.txt";
+
+   FILE *file = fopen ( filename, "r" );
+
+   if ( file != NULL )
+   {
+      char line [ 128 ];
+      
+      
+      char lines[50];
+      
+      fgets(lines, 50, file);
+      sscanf(lines, "%d", &sizeL1Inst);
+      
+      fgets(lines, 50, file);
+      sscanf(lines, "%d", &assL1Inst);
+      
+      fgets(lines, 50, file);
+      sscanf(lines, "%d", &sizeL1Data);
+      
+      fgets(lines, 50, file);
+      sscanf(lines, "%d", &assL1Data);
+      
+      fgets(lines, 50, file);
+      sscanf(lines, "%d", &sizeL2);
+      
+      fgets(lines, 50, file);
+      sscanf(lines, "%d", &assL2);
+      
+      fgets(lines, 50, file);
+      sscanf(lines, "%d", &cacheBlockSize);
+      
+      fgets(lines, 50, file);
+      sscanf(lines, "%d", &L2AccTime);
+      
+      fgets(lines, 50, file);
+      sscanf(lines, "%d", &memAccTime);
+      
+      fclose ( file );
+  }
+  */
